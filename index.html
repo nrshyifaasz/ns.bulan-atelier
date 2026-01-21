@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NS.Bulan Atelier - A modern fashion editorial magazine featuring the latest trends, style stories, and fashion insights.">
+  <meta name="keywords" content="fashion, style, editorial, trends, lookbook, magazine">
+  <meta name="theme-color" content="#1A1A1A">
+  <title>NS.Bulan Atelier — Where Style Meets Story</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">NS.Bulan <span>Atelier</span></a>
+      
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <div class="nav-mobile">
+      <ul class="nav-mobile-links">
+        <li><a href="index.html" class="nav-mobile-link">Home</a></li>
+        <li><a href="blog.html" class="nav-mobile-link">Blog</a></li>
+        <li><a href="contact.html" class="nav-mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-background">
+      <video autoplay muted loop playsinline class="hero-video" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dynamics%20-%20Fashion%20film%20by%20ELAY%20Studios-4KLBTxMf3BalLEmupFBX3GkFjSekkM.mp4">
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+    
+    <div class="hero-content container">
+      <p class="hero-subtitle">Welcome to NS.Bulan Atelier</p>
+      <h1 class="hero-title text-balance">
+        Where <span>Style</span> Meets Story
+      </h1>
+      <p class="hero-description">
+        Discover the latest trends, timeless elegance, and the stories behind the fashion that defines our era. 
+        Your journey into the world of style begins here.
+      </p>
+      <div class="hero-cta">
+        <a href="blog.html" class="btn btn-primary">Explore Stories</a>
+        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Featured Articles Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">Latest Stories</p>
+        <h2 class="section-title">Featured Articles</h2>
+        <p class="section-description">
+          Explore our curated collection of fashion stories, trends, and style inspiration.
+        </p>
+      </div>
+      
+      <div class="featured-grid">
+        <!-- Article 1 -->
+        <article class="article-card reveal delay-1">
+          <a href="#">
+            <div class="article-card-image">
+              <img src="public/images/blog-1.jpg" alt="Street style trends">
+              <span class="article-card-category">Street Style</span>
+            </div>
+            <div class="article-card-content">
+              <p class="article-card-date">January 15, 2026</p>
+              <h3 class="article-card-title">The Art of Street Style: Urban Fashion Redefined</h3>
+              <p class="article-card-excerpt">
+                Discover how city streets have become the new runways, where personal expression meets fashion innovation.
+              </p>
+            </div>
+          </a>
+        </article>
+        
+        <!-- Article 2 -->
+        <article class="article-card reveal delay-2">
+          <a href="#">
+            <div class="article-card-image">
+              <img src="public/images/blog-2.jpg" alt="Beauty trends">
+              <span class="article-card-category">Beauty</span>
+            </div>
+            <div class="article-card-content">
+              <p class="article-card-date">January 12, 2026</p>
+              <h3 class="article-card-title">Beauty Meets Fashion: The Perfect Harmony</h3>
+              <p class="article-card-excerpt">
+                Exploring the seamless connection between makeup artistry and fashion design in modern aesthetics.
+              </p>
+            </div>
+          </a>
+        </article>
+        
+        <!-- Article 3 -->
+        <article class="article-card reveal delay-3">
+          <a href="#">
+            <div class="article-card-image">
+              <img src="public/images/blog-3.jpg" alt="Wardrobe essentials">
+              <span class="article-card-category">Fashion Tips</span>
+            </div>
+            <div class="article-card-content">
+              <p class="article-card-date">January 10, 2026</p>
+              <h3 class="article-card-title">Building Your Capsule Wardrobe: Essential Pieces</h3>
+              <p class="article-card-excerpt">
+                Learn how to create a versatile wardrobe with timeless pieces that work for every occasion.
+              </p>
+            </div>
+          </a>
+        </article>
+      </div>
+      
+      <div class="reveal" style="text-align: center; margin-top: 3rem;">
+        <a href="blog.html" class="btn btn-outline-dark">View All Articles</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lookbook Carousel Section -->
+  <section class="section lookbook">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">Season Collection</p>
+        <h2 class="section-title">The Lookbook</h2>
+        <p class="section-description">
+          A visual journey through our curated collection of seasonal fashion highlights.
+        </p>
+      </div>
+      
+      <div class="carousel reveal">
+        <div class="carousel-container">
+          <!-- Slide 1 -->
+          <div class="carousel-slide">
+            <div class="carousel-slide-inner">
+              <div class="carousel-item">
+                <img src="public/images/lookbook-1.jpg" alt="Spring collection">
+                <div class="carousel-item-overlay">
+                  <h4 class="carousel-item-title">Spring Elegance</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="public/images/lookbook-2.jpg" alt="Evening wear">
+                <div class="carousel-item-overlay">
+                  <h4 class="carousel-item-title">Evening Glamour</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="public/images/lookbook-3.jpg" alt="Minimalist style">
+                <div class="carousel-item-overlay">
+                  <h4 class="carousel-item-title">Minimalist Chic</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide 2 -->
+          <div class="carousel-slide">
+            <div class="carousel-slide-inner">
+              <div class="carousel-item">
+                <img src="public/images/blog-4.jpg" alt="Summer fashion">
+                <div class="carousel-item-overlay">
+                  <h4 class="carousel-item-title">Summer Breeze</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="public/images/blog-5.jpg" alt="Sustainable fashion">
+                <div class="carousel-item-overlay">
+                  <h4 class="carousel-item-title">Conscious Style</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="public/images/blog-6.jpg" alt="Winter collection">
+                <div class="carousel-item-overlay">
+                  <h4 class="carousel-item-title">Winter Warmth</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-controls">
+          <button class="carousel-btn carousel-prev" aria-label="Previous slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 18l-6-6 6-6"/>
+            </svg>
+          </button>
+          <button class="carousel-btn carousel-next" aria-label="Next slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </button>
+        </div>
+        
+        <div class="carousel-dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <img src="public/images/hero-fashion.jpg" alt="About NS.Bulan Atelier">
+          <div class="about-image-accent"></div>
+        </div>
+        
+        <div class="about-content reveal-right">
+          <p class="section-subtitle">About Us</p>
+          <h2 class="section-title">Crafting Stories Through Fashion</h2>
+          <p>
+            NS.Bulan Atelier is more than a fashion blog — it's a celebration of style, creativity, and the stories 
+            that clothes tell. We believe that fashion is a form of self-expression, a way to communicate 
+            who you are without saying a word.
+          </p>
+          <p>
+            Our team of passionate writers, photographers, and stylists work together to bring you 
+            the latest trends, timeless style advice, and inspiring stories from the world of fashion.
+          </p>
+          
+          <div class="about-stats">
+            <div class="stat-item">
+              <h3>500+</h3>
+              <p>Articles Published</p>
+            </div>
+            <div class="stat-item">
+              <h3>50K</h3>
+              <p>Monthly Readers</p>
+            </div>
+            <div class="stat-item">
+              <h3>5</h3>
+              <p>Years of Stories</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="section" style="background-color: var(--color-off-white);">
+    <div class="container" style="text-align: center;">
+      <div class="reveal">
+        <p class="section-subtitle">Stay Updated</p>
+        <h2 class="section-title">Join Our Newsletter</h2>
+        <p class="section-description" style="margin-bottom: 2rem;">
+          Subscribe to receive the latest fashion stories, exclusive content, and style inspiration delivered to your inbox.
+        </p>
+        <form style="display: flex; gap: 1rem; max-width: 500px; margin: 0 auto; flex-wrap: wrap; justify-content: center;">
+          <input type="email" placeholder="Enter your email" class="form-input" style="flex: 1; min-width: 250px;">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>NS.Bulan <span>Atelier</span></h3>
+          <p>Your destination for the latest in fashion, style stories, and trend insights. Where every outfit tells a story.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="18" cy="6" r="1"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Pinterest">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4"/>
+                <path d="M9 16l1.5-6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="#">Street Style</a></li>
+            <li><a href="#">Fashion Tips</a></li>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li>hello@nsbulan.my</li>
+            <li>+60 3-1234 5678</li>
+            <li>Kuala Lumpur, Malaysia</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 NS.Bulan Atelier. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="public/js/main.js"></script>
+</body>
+</html>
